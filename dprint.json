@@ -3,7 +3,7 @@
     "singleQuote": false,
     "overrides": [
       {
-        "files": "*.js",
+        "files": ["**/*.js"],
         "options": {
           "singleQuote": true
         }
