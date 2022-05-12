@@ -1,0 +1,18 @@
+{
+  "prettier": {
+    "singleQuote": false,
+    "overrides": [
+      {
+        "files": "*.js",
+        "options": {
+          "singleQuote": true
+        }
+      }
+    ]
+  },
+  "includes": ["**/*.{js,html}"],
+  "excludes": ["**/node_modules", "**/*-lock.json"],
+  "plugins": [
+    "https://plugins.dprint.dev/prettier-0.8.0.json@7229a9f8c7c07a0f2865f665728160c1a50f56d7a447117884fbd5fb803df90a"
+  ]
+}
